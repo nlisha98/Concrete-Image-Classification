@@ -157,5 +157,13 @@ Concrete cracks may endanger the safety and durability of a building if not bein
   class = "center">
 </p>
 
+## Discussion
+From the TensorBoard Loss Graph above, we can conclude that the validation is overfit at the end of the model training, there are several ways on how to solve the model overfitting issues such as:
+<ul>
+  <li>Adding More Dropout Layers</li>
+  <li>Regularization and Ensembling</li>
+  <li>Saving best model by using model_checkpoint</li>
+</ul>
+
 ## Acknowledgement
 Special thanks to **(https://data.mendeley.com/datasets/5y9wdsg2zt/2)** for the data source used for this project.
